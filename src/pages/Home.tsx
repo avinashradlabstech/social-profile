@@ -10,23 +10,23 @@ const Home: React.FC = () => {
   const solcialLinkData: SolcialLinkData[] = [
     {
       socialMedium: 'Github',
-      url: '#',
+      url: 'https://github.com',
     },
     {
       socialMedium: 'Frontend Mentor',
-      url: '#',
+      url: 'https://frontendmentor.io',
     },
     {
       socialMedium: 'Linkedin',
-      url: '#',
+      url: 'https://linkedin.com',
     },
     {
       socialMedium: 'Twitter',
-      url: '#',
+      url: 'https://twitter.com',
     },
     {
       socialMedium: 'Instagram',
-      url: '#',
+      url: 'https://instagram.com',
     },
   ]
   return (
