@@ -30,7 +30,7 @@ const Home: React.FC = () => {
     },
   ]
   return (
-    <div className='px-6 py-6 h-auto bg-grey-900  justify-center items-center min-h-[812px]'>
+    <div className='px-6 py-6 h-screen bg-grey-900  justify-center items-center min-h-[812px]'>
       <div className='flex flex-col  flex-1 justify-center items-center'>
         <div className='flex flex-col  bg-grey-800 px-6 py-6 md:px-10 md:py-40px gap-300 justify-center items-center  md:max-w-[456px] 2md:max-w-[384px]'>
           <img
