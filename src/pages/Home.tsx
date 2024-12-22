@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         <div className='flex flex-col  bg-grey-800 px-6 py-6 md:px-10 md:py-40px gap-300 justify-center items-center  md:max-w-[456px]'>
           <img
             className='rounded-[999px] w-[88px] self-center'
-            src='../src/assets/images/avatar-jessica.jpeg'></img>
+            src='/avatar-jessica.jpeg'></img>
           <div className='flex flex-col justify-center items-center self-stretch'>
             <h1 className='font-inter text-24 text-white font-semibold leading-150 '>
               Jessica Randall
