@@ -32,7 +32,7 @@ const Home: React.FC = () => {
   return (
     <div className='px-6 py-6 h-auto bg-grey-900  justify-center items-center min-h-[812px]'>
       <div className='flex flex-col  flex-1 justify-center items-center'>
-        <div className='flex flex-col  bg-grey-800 px-6 py-6 md:px-10 md:py-40px gap-300 justify-center items-center  md:max-w-[456px] lg:max-w-[384px]'>
+        <div className='flex flex-col  bg-grey-800 px-6 py-6 md:px-10 md:py-40px gap-300 justify-center items-center  md:max-w-[456px] 2md:max-w-[384px]'>
           <img
             className='rounded-[999px] w-[88px] self-center'
             src='/avatar-jessica.jpeg'></img>
@@ -51,7 +51,7 @@ const Home: React.FC = () => {
           {solcialLinkData.map((data, index) => (
             <div
               key={index}
-              className='flex flex-col text-white gap-200 text-center min-w-[279px] md:min-w-[352px] 2md:max-w-[280px]'>
+              className='flex flex-col text-white gap-200 text-center min-w-[279px] md:min-w-[352px] 2md:min-w-[280px]'>
               <Button socialMedium={data.socialMedium} url={data.url} />
             </div>
           ))}
