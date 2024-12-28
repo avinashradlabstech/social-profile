@@ -21,7 +21,12 @@ export default {
       letterSpacing: {
         '0': '0px',
       },
-
+      width: {
+        '88': '88px', 
+      },
+      padding: {
+        '40': '40px', 
+      },
       colors: {
         'grey-900': '#141414',
         'grey-800': '#1F1F1F',
