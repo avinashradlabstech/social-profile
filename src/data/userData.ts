@@ -19,7 +19,7 @@ const profileData: ProfileData = {
     basicDetails: {
         name: "Jessica Randall",
         location: "London, United Kingdom",
-        jobRole: "Front-end developer and avid reader.",
+        jobRole:"\"Front-end developer and avid reader.\"",
         profileImage: "avatar-jessica.jpeg",
     },
     socialDetails: [
