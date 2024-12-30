@@ -22,10 +22,10 @@ export default {
         '0': '0px',
       },
       width: {
-        '88': '88px', 
+        '88': '88px',
       },
       padding: {
-        '40': '40px', 
+        '40': '40px',
       },
       colors: {
         'grey-900': '#141414',
@@ -34,7 +34,9 @@ export default {
         'green': '#C4F82A',
         'white': '#ffff'
       },
-
+      borderRadius: {
+        'extra-full': '999px',
+      },
       spacing: {
         500: '40px',
         300: '24px',

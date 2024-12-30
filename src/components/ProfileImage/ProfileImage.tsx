@@ -11,7 +11,7 @@ const ProfileImage: React.FC<ProfileImageProps> = ({ imageUrl, alt }) => {
   return (
     <>
       <img
-        className='rounded-[999px] self-center'
+        className='rounded-extra-full self-center'
         src={`${updatedImageUrl}-1024.jpeg`}
         srcSet={`
           ${updatedImageUrl}-370.jpeg 370w, 
