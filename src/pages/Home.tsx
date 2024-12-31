@@ -40,9 +40,9 @@ const Home: React.FC = () => {
         <meta name='twitter:image' content={userData.basicDetails.profileImage} />
       </Helmet>
 
-      <div className='px-6 py-6 h-auto bg-grey-900  justify-center items-center min-h-[812px]'>
+      <div className='px-6 py-6 h-auto bg-grey-900  justify-center items-center min-h-[50.75rem]'>
         <div className='flex flex-col  flex-1 justify-center items-center'>
-          <div className='flex flex-col  bg-grey-800 px-6 py-6 md:px-10 md:py-40 gap-300 justify-center items-center  md:max-w-[456px]'>
+          <div className='flex flex-col  bg-grey-800 px-6 py-6 md:px-10 md:py-40 gap-300 justify-center items-center  md:max-w-[28.5rem]'>
             <ProfileImage
               imageUrl={userData.basicDetails.profileImage}
               alt={userData.basicDetails.name}
@@ -55,7 +55,7 @@ const Home: React.FC = () => {
             {userData.socialDetails.map((data, index) => (
               <div
                 key={index}
-                className='flex flex-col text-white gap-200 text-center min-w-[279px] md:min-w-[352px]'>
+                className='flex flex-col text-white gap-200 text-center min-w-[17.4375rem] md:min-w-[22rem]'>
                 <Button socialMedium={data.socialMedium} url={data.url} />
               </div>
             ))}
